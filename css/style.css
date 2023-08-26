@@ -7,6 +7,7 @@
   --text-white-opacity:rgba(255, 255, 255, 0.6);
   --primary-text-color:#434455);
   --navyblue:#2E2F42;
+  --primary-black-color:#000000;
   --cloud :#F4F4FD;
 }
 
@@ -18,6 +19,7 @@ h5,
 h6,
 p {
   margin: 0;
+
 }
 
 *,
@@ -190,6 +192,8 @@ line-height: 1.2;
 /*footer */
 .footer{
   background-color: var(--navyblue);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 /* .header-nav {
