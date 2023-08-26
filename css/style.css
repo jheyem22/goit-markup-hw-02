@@ -1,11 +1,13 @@
 :root{
-  --iris: #4D5AE5;
-  --logo-black: #000000;
-  --primary-white-color: #ffffff;
-  --button-filter: #f5f4fa;
-  --background-black: #2E2F42;
-  --text-white-opacity: rgba(255, 255, 255, 0.6);
-  --primary-text-color: #757575;
+  --iris:#4D5AE5;
+  --logo-black:#000000;
+  --white-color:#ffffff;
+  --button-filter:#f5f4fa;
+  --background-black:#2E2F42;
+  --text-white-opacity:rgba(255, 255, 255, 0.6);
+  --primary-text-color:#434455);
+  --navyblue:#2E2F42;
+  --cloud :#F4F4FD;
 }
 
 h1,
@@ -79,7 +81,7 @@ line-height: 1.2;
 }
 
 .logo-white {
-  color: var(--primary-white-color);
+  color: var(--white-color);
 }
 
 /* Header */
@@ -173,12 +175,21 @@ line-height: 1.2;
 
 .hero-title{
   /* margin-bottom: 30px; */
-  color: var(--primary-white-color);
+  color: var(--white-color);
   font-weight: 900;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+/*our team */
+
+.our-team{
+  background-color: var(--cloud);
+}
+/*footer */
+.footer{
+  background-color: var(--navyblue);
 }
 
 /* .header-nav {
