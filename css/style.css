@@ -80,7 +80,7 @@ contact-link {
   padding-bottom: 94px;
 }
 
-.container {
+.container-menu {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -121,7 +121,7 @@ contacts-menu-list {
 
 .nav-menu-list,
 contacts-menu-list {
-  margin-left: 93px;
+  margin-left: 0px;
 }
 
 .nav-menu-list .list-item:not(:last-child),
@@ -130,23 +130,19 @@ contacts-menu-list {
 }
 
 .nav-menu-list .page-header,
-.contacts-menu-list .contact-link {
+.contacts-menu-list .page-header {
   display: block;
   padding-top: 20px;
   padding-bottom: 19px;
-  color: var(--primary-black-color);
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
-.contacts-menu-list .contact-link {
-  color: var(--primary-text-color);
-}
-
-.nav-menu-list .page:hover,
-.nav-menu-list .page:focus,
+.nav-menu-list .page-link:hover,
+.nav-menu-list .page-link:focus,
 .nav-menu-list .page-current-link,
 .contacts-menu-list .contact-link:hover,
 .contacts-menu-list .contact-link:focus {
