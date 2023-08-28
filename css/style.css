@@ -196,8 +196,6 @@ contacts-menu-list {
   display: flex;
   padding: 12px 24px;
   border: 1px solid var(--cornflower);
-  justify-content: center;
-  align-items: center;
   color: var(--iris);
   text-align: center;
   font-family: "Roboto", sans-serif;
@@ -209,13 +207,11 @@ contacts-menu-list {
   border-radius: 4px;
 }
 /* hero */
-.hero {
+.hero-bg-hero {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-}
-
-.bg-hero {
+  justify-content: center;
   background-color: var(--background-black);
 }
 
